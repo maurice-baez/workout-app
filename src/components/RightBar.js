@@ -35,12 +35,17 @@ export const RightBar = () => {
       p={2}
       sx={{
         display: {
-          xs: "none",
-          sm: "block",
+          sm: "none",
+          lg: "block",
         },
       }}
     >
-      <Box position="fixed" width={300}>
+      <Box
+        position="fixed"
+        width="auto"
+        mr="10px"
+        sx={{ maxHeight: "100vh", overflow: "auto" }}
+      >
         <Typography variant="h6" fontWeight={100}>
           Online Friends
         </Typography>
@@ -146,6 +151,131 @@ export const RightBar = () => {
                     to Scott, Alex, Jennifer
                   </Typography>
                   {" — Eclipsed 1000lbs!!!"}
+                </React.Fragment>
+              }
+            />
+          </ListItem>
+          <Divider variant="inset" component="li" />
+          <ListItem alignItems="flex-start">
+            <ListItemAvatar>
+              <Avatar
+                alt="Cindy Baker"
+                src="https://material-ui.com/static/images/avatar/3.jpg"
+              />
+            </ListItemAvatar>
+            <ListItemText
+              primary="The Games"
+              secondary={
+                <React.Fragment>
+                  <Typography
+                    sx={{ display: "inline" }}
+                    component="span"
+                    variant="body2"
+                    color="text.primary"
+                  >
+                    Sandra Adams
+                  </Typography>
+                  {" — Go CrossFit games wooooo!"}
+                </React.Fragment>
+              }
+            />
+          </ListItem>
+          <Divider variant="inset" component="li" />
+          <ListItem alignItems="flex-start">
+            <ListItemAvatar>
+              <Avatar
+                alt="Cindy Baker"
+                src="https://material-ui.com/static/images/avatar/3.jpg"
+              />
+            </ListItemAvatar>
+            <ListItemText
+              primary="The Games"
+              secondary={
+                <React.Fragment>
+                  <Typography
+                    sx={{ display: "inline" }}
+                    component="span"
+                    variant="body2"
+                    color="text.primary"
+                  >
+                    Sandra Adams
+                  </Typography>
+                  {" — Go CrossFit games wooooo!"}
+                </React.Fragment>
+              }
+            />
+          </ListItem>
+          <Divider variant="inset" component="li" />
+          <ListItem alignItems="flex-start">
+            <ListItemAvatar>
+              <Avatar
+                alt="Cindy Baker"
+                src="https://material-ui.com/static/images/avatar/3.jpg"
+              />
+            </ListItemAvatar>
+            <ListItemText
+              primary="The Games"
+              secondary={
+                <React.Fragment>
+                  <Typography
+                    sx={{ display: "inline" }}
+                    component="span"
+                    variant="body2"
+                    color="text.primary"
+                  >
+                    Sandra Adams
+                  </Typography>
+                  {" — Go CrossFit games wooooo!"}
+                </React.Fragment>
+              }
+            />
+          </ListItem>
+          <Divider variant="inset" component="li" />
+          <ListItem alignItems="flex-start">
+            <ListItemAvatar>
+              <Avatar
+                alt="Cindy Baker"
+                src="https://material-ui.com/static/images/avatar/3.jpg"
+              />
+            </ListItemAvatar>
+            <ListItemText
+              primary="The Games"
+              secondary={
+                <React.Fragment>
+                  <Typography
+                    sx={{ display: "inline" }}
+                    component="span"
+                    variant="body2"
+                    color="text.primary"
+                  >
+                    Sandra Adams
+                  </Typography>
+                  {" — Go CrossFit games wooooo!"}
+                </React.Fragment>
+              }
+            />
+          </ListItem>
+          <Divider variant="inset" component="li" />
+          <ListItem alignItems="flex-start">
+            <ListItemAvatar>
+              <Avatar
+                alt="Cindy Baker"
+                src="https://material-ui.com/static/images/avatar/3.jpg"
+              />
+            </ListItemAvatar>
+            <ListItemText
+              primary="The Games"
+              secondary={
+                <React.Fragment>
+                  <Typography
+                    sx={{ display: "inline" }}
+                    component="span"
+                    variant="body2"
+                    color="text.primary"
+                  >
+                    Sandra Adams
+                  </Typography>
+                  {" — Go CrossFit games wooooo!"}
                 </React.Fragment>
               }
             />
